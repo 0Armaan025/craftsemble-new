@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.contactFormHeading {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+.contactFormInput {
+    padding: 1rem;
+    color: #b8c1ec;
+    width: 100%; 
+    font-size: 19px;
+    border-radius: 15px;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 10px 0; 
+}
+
+.submitBtn {
+    padding: 1rem;
+    width: 100%; 
+    border-radius: 8px;
+    font-size: 30px;
+    color: #232946;
+    transition: 0.15s ease-in-out;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #eebbc3; 
+    border: 2px solid #121629; 
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    background-color: #d2a2a9; 
+    
+}
+
+.theboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .theboxes {
+        flex-direction: column; 
+    }
+}

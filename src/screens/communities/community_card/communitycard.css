@@ -1,0 +1,73 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+    background: #b8c1ec;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 20px;
+    background-color: #b8c1ec;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.card:hover {
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.communityName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.communityDescription {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.imageData {
+    background: transparent;
+}
+.stubbornImage:hover {
+    transform: scale(1.1);
+}
+.joinCommunityBtn {
+    padding: 0.4rem;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #121629;
+    background: #eebbc3;
+    color: #232946;
+    width: 150px;
+    transition: 0.18s ease-in-out;
+    cursor: pointer;
+}
+.joinCommunityBtn:hover {
+    background: rgb(213, 193, 156)c3;
+    
+}
+.stubbornImage {
+    height: 200px;
+    background: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 20px;
+    margin-right: 50px;
+    width: 280px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.textData {
+    display: flex;
+    background: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 , h6 {
+    background: transparent;
+}
+
+h6 {
+    margin-right: 20px;
+}

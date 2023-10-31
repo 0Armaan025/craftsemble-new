@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.blogsBtn{
+    margin-top: 20px;
+    padding: 1rem;
+    font-size: 22px;
+    width: 200px;
+    outline: none;
+    margin-left: 20px;
+    border-radius: 8px;
+    color: #232946;
+    background: #eebbc3;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+.blogsBtn:hover {
+    color: #232946;
+    background: #d6a8af;
+}

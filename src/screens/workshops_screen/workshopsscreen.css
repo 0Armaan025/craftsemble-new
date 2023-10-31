@@ -1,0 +1,87 @@
+/* WorkshopsScreen.css */
+.workshopsScreen {
+    
+    min-height: 100vh;
+  }
+  
+  .workshopsHeading {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .workshops-container {
+    max-width: 900px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .workshop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+  }
+  
+  .workshop-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workshop-image {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 50%; 
+    margin: 0 auto 10px;
+  }
+  
+  .workshop-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .workshop-date {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .workshop-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .workshop-hosted {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .register-button {
+    background-color: #eebbc3;
+    color: #232946;
+    border: 1px solid #121629;
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  p {
+    color: black;
+  }
+  
+  .register-button:hover {
+    background-color: rgb(236, 245, 255);
+  }
+  

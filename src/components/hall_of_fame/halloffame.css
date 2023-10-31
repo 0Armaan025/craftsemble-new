@@ -1,0 +1,88 @@
+
+.hallOfFame {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .trophyContainer {
+    background: none;
+    background: none;
+    position: relative;
+  }
+  
+  .userImage {
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    height: 420px;
+    background: none;
+    width: 350px; 
+  }
+  
+  .trophy {
+    
+    margin-right: 30px;
+    background: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: none;
+    top: 50%;
+    background: transparent;
+    left: 50%;
+    width: 260px;
+    height: 260px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .animatedTrophy {
+    background: none;
+    transform: rotate(20deg);
+    width: 160px; 
+    animation: trophyAnimation 2s ease-in-out infinite;
+  }
+  
+  .animatedTrophy img {
+    transform: rotate(20deg);
+    background: none;
+    width: 100%;
+  }
+  
+  @keyframes trophyAnimation {
+    0% {
+      transform: rotate(20deg);
+      transform: scale(1);
+    }
+    50% {
+      transform: rotate(20deg);
+      transform: scale(1.2); 
+    }
+    100% {
+      transform: rotate(20deg);
+      transform: scale(1); 
+    }
+  }
+  
+  .trophy span {
+    color: white;
+    font-weight: bold;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+    font-size: 74px; 
+    margin-left: 30px; 
+  }
+  .trophy {
+    background: none;
+    background-color: none;
+    background: transparent;
+    background-color: transparent;
+  }
+  #imageNew {
+    background: none;
+  }
+  

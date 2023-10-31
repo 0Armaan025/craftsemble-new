@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&display=swap');
+
+/* Base styles for larger screens */
+.profile-screen {
+    display: flex;
+    height: 300vh;
+    overflow: hidden;
+}
+
+.badgesContainer {
+    padding: 10px;
+    border-radius: 6px;
+    border: 0.6px solid #fffffe;
+}
+.badgesContainer img {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.badgesContainer img:hover {
+    transform: scale(1.1);
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item:hover {
+    background-color: hsl(0, 0%, 42%);
+}
+.infoLabel {
+    margin: 10px;
+    color: #b8c1ec;
+    font-size: 20px;
+}
+
+.editIcon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+.editIcon:hover {
+    cursor: pointer;
+    box-shadow: 2px 1px 2px 1px black;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    padding: 0.3rem;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    align-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.profileHeading {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.profileInfoPara {
+    font-size: 16px;
+}
+
+.infoValue {
+    color: #ffffff;
+}
+
+.starsContainer {
+    padding: 10px;
+    border-radius: 6px;
+    border: 0.6px solid #fffffe;
+}
+
+.updateProfileButton {
+    background: #eebbc3;
+    color: #232946;
+    border: 1px solid #121629;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.updateProfileButton:hover {
+    background: #ffeaed;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .profile-screen {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+}

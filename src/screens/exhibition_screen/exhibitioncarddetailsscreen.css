@@ -1,0 +1,124 @@
+.exhibition-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.craftImage {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  animation: float 6s ease-in-out infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+.craftImage:hover {
+  transform: scale(1.2);
+  animation: none;
+  cursor: pointer;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.details {
+  margin-top: 30px;
+  padding: 2rem;
+  text-align: center;
+  background: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+
+.star-button {
+  background: #a78a8e;
+  border: 1px solid #121629;
+  
+  height: 50px;
+  width: 80px;
+  color: #232946;
+  cursor: pointer;
+  animation: floating 4s ease-in-out infinite;
+}
+
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.message-button {
+
+    background: #eebbc3;
+    border: 1px solid #121629;
+    font-size: 18px;
+    color: #232946;
+    cursor: pointer;
+    animation: floating 4s ease-in-out infinite;
+  
+}
+
+.exhibition-card-details.zoomed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.exhibition-card-details.zoomed .banner img {
+  max-width: 90%;
+  max-height: 90%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.craftImage {
+  transition: 0.2s ease-in-out;
+}
+
+.exhibition-card-details.zoomed .banner img:hover {
+  transform: scale(1.2);
+}

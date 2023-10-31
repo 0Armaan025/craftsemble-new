@@ -1,0 +1,50 @@
+/* blogs.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* Style for the individual blog card */
+.blog-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.blog-card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.blog-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.blog-card p {
+  margin: 8px 0;
+}
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.add-blog-button {
+  background-color: #eebbc3;
+  color: #232946;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.add-blog-button:hover {
+  background-color: #b0878d;
+}
+
+.blogPageHeading {
+  color: #fffffe;
+  font-family: 'Noto Sans JP', sans-serif;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+
+.exhibition-card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &__image {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+
+    button {
+      background: #00aaff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #00ff55;
+      }
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.exhibition-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.exhibitions-heading {
+  font-size: 40px;
+  font-family: 'Gorditas', serif;
+  text-align: center;
+}
+
+.upload-link {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    color: #00ff55;
+  }
+}

@@ -1,0 +1,5 @@
+background: #232946
+headline: #fffffe
+para: #b8c1ec
+button: #eebbc3
+button text: #232946

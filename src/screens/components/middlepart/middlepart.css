@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.middleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleContainer__left_text_text {
+    font-size: 76px;
+    width: 700px;
+    color: #fffffe;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+}
+
+.middleContainer__left_text {
+    margin-top: 80px;
+}
+
+.middleContainer__left_text_text_text {
+    margin-top: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.right_image {
+    height: 400px;
+    width: 450px;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .middleContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middleContainer__left_text {
+        margin-top: 30px;
+    }
+
+    .right_image {
+        margin: 30px 0;
+    }
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

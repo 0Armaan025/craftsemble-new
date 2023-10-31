@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+.featuresHeading {
+    font-size: 70px;
+    color: #fffffe;
+    font-weight: bold;
+    font-family: 'Autour One', sans-serif;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+.features {
+    margin-top: 20px; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.featuresRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .featuresHeading {
+        font-size: 40px; 
+    }
+
+    .features {
+        margin-top: 10px; 
+        padding: 20px;
+    }
+
+    .featuresRow {
+        flex-direction: column;
+}
+}
